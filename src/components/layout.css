@@ -121,6 +121,32 @@ button,
 input {
   overflow: visible;
 }
+input[type='email'] {
+  padding: 8px;
+  width: 25%;
+}
+input[type='text'] {
+  padding: 8px;
+  width: 25%;
+}
+.form-control {
+  margin-left: 45px;
+  margin-bottom: 15px;
+}
+.form-control-msg {
+  margin-left: 25px;
+}
+.btn {
+  margin-top: 20px;
+}
+.btn-submit {
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  background-color: #fc5185;
+}
 .btn-download {
   border: none;
   padding: 20px;

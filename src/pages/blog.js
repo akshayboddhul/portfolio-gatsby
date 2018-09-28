@@ -7,6 +7,7 @@ const BlogPage = () => (
     <h3>My Blog's</h3>
     <div style={{ color: '#be3737', fontSize: '32px' }}>
       <p>Soon this is ready to launch...</p>
+      <br />
       <p>Stay Updated...</p>
       <br />
       <br />
