@@ -4,10 +4,8 @@ import Layout from '../components/layout'
 
 const BlogPage = () => (
   <Layout>
-    <h3>My Blog's</h3>
+    <h1>My Blog's</h1>
     <div style={{ color: '#be3737', fontSize: '32px' }}>
-      <p>Soon this is ready to launch...</p>
-      <br />
       <p>Stay Updated...</p>
       <br />
       <br />

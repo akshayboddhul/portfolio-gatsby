@@ -19,7 +19,8 @@ const IndexPage = () => (
         </p>
         <p>
           Fast learner, hard worker, self-motivated and team player who is
-          proficient in MongoDB, Express, React and NodeJS.
+          proficient in <b>MongoDB</b>, <b>Express</b>, <b>React</b> and{' '}
+          <b>NodeJS</b>.
         </p>
       </div>
 
