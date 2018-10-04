@@ -10,7 +10,7 @@ const BlogPage = () => (
       <p>
         <h2>WebAssembly: A Foundation for a Higher Performance Web</h2>
         <h4>Check out this episode of Software Engineering Daily: </h4>
-        <Link to="https://softwareengineeringdaily.com/2018/10/01/webassembly-a-foundation-for-a-higher-performance-web/">
+        <Link to="/https://softwareengineeringdaily.com/2018/10/01/webassembly-a-foundation-for-a-higher-performance-web/">
           Click here to read more
         </Link>
       </p>
