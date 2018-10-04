@@ -23,10 +23,10 @@ const IndexPage = () => (
           <b>NodeJS</b>.
         </p>
       </div>
-      <a href="../resume/akshayboddhul.pdf" className="btn-download">
+      <a href="..src/resume/akshayboddhul.pdf" className="btn-download">
         Download
       </a>
-      <a href="/resume/akshayboddhul.pdf" className="btn-download">
+      <a href="src/resume/akshayboddhul.pdf" className="btn-download">
         Download
       </a>
     </div>
