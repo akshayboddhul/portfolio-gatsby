@@ -6,9 +6,46 @@ const ContactPage = () => (
     <h1>Contact</h1>
     <div>
       <p>Looking forword to answering your message.</p>
-    </div>
-    <div>
       <p>Email: akshayboddhul45@gmail.com</p>
+    </div>
+    <form action="post" netlify>
+      <p>
+        <input
+          style={{ width: '50%' }}
+          type="text"
+          name="name"
+          id="name"
+          placeholder="type ur name"
+          required
+        />
+      </p>
+      <p>
+        <input
+          style={{ width: '50%' }}
+          type="email"
+          name="email"
+          id="email"
+          placeholder="type ur email"
+          required
+        />
+      </p>
+      <p>
+        <textarea
+          style={{ width: '50%' }}
+          name="message"
+          id="message"
+          cols="24"
+          rows="5"
+          placeholder="type ur message"
+          required
+        />
+      </p>
+      <p>
+        <div data-netlify-recaptcha />
+      </p>
+      <button type="submit">Send</button>
+    </form>
+    <div>
       <p>
         <a
           href="https://twitter.com/akshay_boddhul"
