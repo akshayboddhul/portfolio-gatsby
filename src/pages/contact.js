@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Layout from '../components/layout'
 import { Link } from 'gatsby'
 
@@ -12,19 +11,33 @@ const ContactPage = () => (
     <div>
       <p>Email: akshayboddhul45@gmail.com</p>
       <p>
-        <Link to="#" target="_blank" style={{ paddingRight: '20px' }}>
+        <Link
+          to="https://twitter.com/akshay_boddhul"
+          target="_blank"
+          style={{ paddingRight: '20px' }}
+        >
           Twitter
         </Link>
-        <Link to="#" target="_blank" style={{ paddingRight: '20px' }}>
-          Gmail
+        <Link
+          to="https://www.instagram.com/a_boddhul/"
+          target="_blank"
+          style={{ paddingRight: '20px' }}
+        >
+          Instagram
         </Link>
+
         <Link to="#" target="_blank" style={{ paddingRight: '20px' }}>
           Linkedin
         </Link>
-        <Link to="#" target="_blank">
-          WhatsApp
-        </Link>
       </p>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     </div>
   </Layout>
 )
