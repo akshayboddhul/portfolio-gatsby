@@ -10,11 +10,11 @@ const BlogPage = () => (
       <p>
         <h2>WebAssembly: A Foundation for a Higher Performance Web</h2>
         <h4>Check out this episode of Software Engineering Daily: </h4>
-        <Link to="/https://softwareengineeringdaily.com/2018/10/01/webassembly-a-foundation-for-a-higher-performance-web/">
-          Click here to read more
-        </Link>
+        <a href="https://softwareengineeringdaily.com/2018/10/01/webassembly-a-foundation-for-a-higher-performance-web/">
+          read more..
+        </a>
       </p>
-      <small>Created by AB 10/04/2018 16:10</small>
+      <small>Created by AB @ 10/04/2018 16:10</small>
       <hr />
       <p>
         <h2>Best Entrepreneur Books 2018</h2>
@@ -31,7 +31,7 @@ const BlogPage = () => (
           <li>Rework by Jason Fried, David Heinemeier Hansson</li>
         </ol>
       </p>
-      <small>Created by AB 10/04/2018 16:12</small>
+      <small>Created by AB @ 10/04/2018 16:12</small>
       <hr />
       <br />
     </div>
