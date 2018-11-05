@@ -40,9 +40,7 @@ const ContactPage = () => (
           required
         />
       </p>
-      <p>
-        <div data-netlify-recaptcha />
-      </p>
+
       <button type="submit">Send</button>
     </form>
     <div>
